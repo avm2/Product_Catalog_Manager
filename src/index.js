@@ -5,7 +5,7 @@ import App from './App';
 import store from "./store"
 import {Provider} from "react-redux"
 import {BrowserRouter} from "react-router-dom"
-import {CssBaseLine, Container} from "@mui/material";
+import {Container} from "@mui/material";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

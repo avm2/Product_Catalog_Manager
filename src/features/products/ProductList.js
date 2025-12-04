@@ -56,14 +56,14 @@ export default function ProductList() {
     dispatch(fetchProducts());
   }, [dispatch]);
 
-  // 🔥 CLEAN NORMALIZE FUNCTION FOR SEARCH
+  //CLEAN NORMALIZE FUNCTION FOR SEARCH
   const normalize = (str) =>
     (str || "")
       .toLowerCase()
       .trim()
       .replace(/\s+/g, " ");
 
-  // 🔥 Final filtering logic
+  //Final filtering logic
   const filtered = useMemo(() => {
     let arr = [...items];
 
@@ -116,7 +116,7 @@ export default function ProductList() {
     { cost: 0, sell: 0, final: 0 }
   );
 
-  // 🔧 Helper to update URL cleanly
+  // Helper to update URL cleanly
   const updateURL = (overrides = {}) => {
     const params = {
       q: query || "",
