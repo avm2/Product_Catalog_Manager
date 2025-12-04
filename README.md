@@ -46,8 +46,3 @@ The app supports product creation, editing, deletion, search, filtering, sorting
 ### Netlify
 Demo Link: https://product-catalog-manager-omega.vercel.app/
 
-### Vercel
-- Build: `npm run build`
-- Output: `build/`
-- Add a `vercel.json` rewrite for SPA routing if using BrowserRouter
-
